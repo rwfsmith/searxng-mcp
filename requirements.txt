@@ -1,0 +1,11 @@
+# SearXNG + MCP Server Dependencies
+
+# Note: SearXNG is installed from source (https://github.com/searxng/searxng)
+# It is NOT a pip package and must be cloned and built from source.
+
+# MCP (Model Context Protocol) dependencies for stdio server
+mcp>=1.0.0
+
+# Additional utilities
+requests>=2.31.0
+aiohttp>=3.9.0
